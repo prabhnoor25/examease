@@ -1,0 +1,92 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.bg{
+    height: 97vh;
+    width: 97vw;
+    filter: blur(2px);
+}
+
+.box{
+    position: absolute;
+    height:40%;
+    width:40%;
+    top:30vh;
+    left:30vw;
+    border: 1px solid black;
+    background-color: #ffff;
+    box-shadow: 0 0 20px black;
+}
+
+#main > img{
+    width:50%;
+    height:10%;
+    margin-left: 25%;
+    display: none;
+}
+
+.box,.box > div{
+    border-radius: 10px;
+}
+
+#main > p{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+#header{
+    border-bottom: 1px solid black;
+}
+
+#footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+#header,#footer{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height:10%;
+    background-color: #5CB3FF;
+}
+
+#header{
+    display: flex;
+}
+
+#close{
+    margin-left: 2%;
+    margin-right: 70%;
+    width:6%;
+    border:0;
+    border-radius: 50%;
+} 
+
+#submit{
+    width:22%;
+    margin-left: 43%;
+    background-color: #ffff;
+    border:0;
+    border-radius: 2px;
+}
+
+#main > input{
+    width: 50%;
+    margin-left: 5%;
+}
+
+#header{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#footer{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

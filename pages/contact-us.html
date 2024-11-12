@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamEase</title>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="./contact-us.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="expanded-icons">
+            <img id="navbar-logo" src="../images/logo.png">
+            <img src="../images/menuIcon.png" id="menu-icon">
+        </div>
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="./contact-us.html">Contact Us</a></span>
+        <span><a href="./pricing.html">Pricing</a></span>
+        <span id="login-btn"><a href="./login.html">Login</a></span>
+    </div>
+
+    <div class="main">
+        <div class="do-you-know">
+            <h2>Got Queries?</h2>
+            <h2>Reach us by filling the contact form</h2>
+            <img src="../images/contact-us.svg">
+        </div>
+        
+        <form class="form">
+            <h1>Contact Us</h1>
+            <p>First Name</p>
+            <input type="text" required>
+            <hr>
+            <p>Last Name</p>
+            <input type="text">
+            <hr>
+            <p>E-mail</p>
+            <input type="email" required>
+            <hr>
+            <p>Query</p>
+            <textarea id="textarea" placeholder="Write your query here..."></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="../navbar.js" defer></script>
+
+</body>
+</html>

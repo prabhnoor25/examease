@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamEase</title>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="./selectRole.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="expanded-icons">
+            <img id="navbar-logo" src="../images/logo.png">
+            <img src="../images/menuIcon.png" id="menu-icon">
+        </div>
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="./contact-us.html">Contact Us</a></span>
+        <span><a href="./pricing.html">Pricing</a></span>
+        <span id="login-btn"><a href="./login.html">Login</a></span>
+    </div>
+
+    <h1>Please Select Your Role</h1>
+    <div class="main">
+        <div class="teacher" onclick="location.replace('./teacherDashboard.html')">
+            Teacher
+        </div>
+        <img src="../images/role.png">
+        <div class="student" onclick="location.replace('./studentDashboard.html')">
+            Student
+        </div>
+    </div>
+
+    <script src="../navbar.js" defer></script>
+</body>
+</html>
