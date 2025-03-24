@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EaseExam</title>
+<link rel="stylesheet" href="./teacherDashboard.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <div class="header">
+      <img src="../../images/teacherDashboard.png" alt="EduTech Logo">
+    </div>
+    <ul class="menu">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Grades</a></li>
+      <li><a href="#">Class</a></li>
+      <li><a href="#">Groups</a></li>
+      <li><a href="#">Test</a></li>
+    </ul>
+  </div>
+  <div class="content">
+
+    <div class="settings">
+      <h3>Settings</h3>
+      <div id="time-settings">
+        Time-limit
+        <input id="time-limit" type="number" min="0"> mins
+      </div>
+    </div>
+
+    <div class="name">
+      <h2>Test Name</h2>
+      <img src="../../images/settingsIcon.png">
+    </div>
+
+    <div class="questions">
+      <h3>Questions</h3>
+      <div class="question one">
+        <div class="description">
+          <p>1. This is the Sample question</p>
+          <img src="../../images/editIcon.png">
+        </div>
+        <div class="options">
+          <label>
+            <input type="radio" name="q1">
+            <input type="text" placeholder="Option 1">
+          </label>
+          <label>
+            <input type="radio" name="q1">
+            <input type="text" placeholder="Option 2">
+          </label>
+          <label>
+            <input type="radio" name="q1">
+            <input type="text" placeholder="Option 3">
+          </label>
+          <label>
+            <input type="radio" name="q1">
+            <input type="text" placeholder="Option 4">
+          </label>
+        </div>
+      </div>
+      
+      <button>Add Question</button>
+      <button>Import Questions</button>
+    </div>
+    <div class="results">
+      <h3>Results</h3>
+      <div class="result">
+        <p>Show Correct Answers</p>
+      </div>
+      <div class="result">
+        <p>Show Incorrect Answers</p>
+      </div>
+      <div class="result">
+        <p>Show Score</p>
+      </div>
+    </div>
+    <div class="time-settings">
+      <h3>Time Settings</h3>
+      <div class="setting">
+        <p>Time Limit</p>
+      </div>
+      <div class="setting">
+        <p>Start Time</p>
+      </div>
+      <div class="setting">
+        <p>End Time</p>
+      </div>
+    </div>
+    <div class="themes">
+      <h3>Themes</h3>
+      <div class="theme">
+        <p>Theme 1</p>
+      </div>
+      <div class="theme">
+        <p>Theme 2</p>
+      </div>
+      <div class="theme">
+        <p>Theme 3</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button>Create</button>
+      <button>Settings</button>
+      <button>Send</button>
+      <button>Preview</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<script src="./teacherDashboard.js"></script>
+</body>
+</html>
