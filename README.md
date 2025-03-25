@@ -6,7 +6,7 @@
 
 A modern examination platform with user authentication and management system powered by Firebase.
 
-**Live Demo:** [your-deployment-link-here] <!-- Add your deployment link -->
+**Live Demo:** [ExamEase](https://prabhnoor25.github.io/examease)
 
 ## Features ✨
 - 🔐 Firebase Authentication
@@ -21,7 +21,6 @@ A modern examination platform with user authentication and management system pow
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** Firebase Realtime Database
 - **Auth:** Firebase Authentication
-- **Hosting:** (Specify if using Firebase Hosting)
 
 ## Project Structure 📁
 ```
@@ -47,33 +46,12 @@ examease/
     └── pricing.html
 ```
 
-## Firebase Setup 🔥
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-2. Enable **Realtime Database** and **Email/Password Authentication**
-3. Replace `firebaseConfig` in login.js and sign-up.js with your credentials:
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_ID",
-  appId: "YOUR_APP_ID"
-};
-```
-
 ## Installation 💻
 1. Clone repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/prabhnoor25/examease.git
 ```
-2. Install dependencies (if any):
-```bash
-npm install  # Add if using any node modules
-```
-3. Configure Firebase as per above instructions
-4. Open in browser:
+2. Open in browser:
 ```bash
 open index.html
 ```
@@ -83,14 +61,6 @@ open index.html
 | Login Page | Signup Page | Dashboard |
 |------------|-------------|-----------|
 | ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) | ![Dashboard](screenshots/dashboard.png) |
-
-## Security Notes 🔒
-```javascript
-// Current security implementation (improve these in production):
-// - Passwords stored in Realtime Database (consider using Firebase Authentication)
-// - Basic email/password validation
-// - Session management through client-side redirects
-```
 
 ## Database Schema 🗃️
 ```json
@@ -108,18 +78,11 @@ open index.html
 }
 ```
 
-## Roadmap 🗺️
-- [ ] Implement Firebase Authentication
-- [ ] Add password encryption
-- [ ] Create exam interface
-- [ ] Add role-based access control
-- [ ] Implement result analytics
-
 ## License 📄
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT License](/LICENSE)
 
 ---
 
 **Developed with ❤️ by Prabhnoor Singh**  
 
-[![GitHub](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prabhnoor25)
+[![GitHub](https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prabhnoor25/examease)
