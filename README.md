@@ -57,10 +57,22 @@ open index.html
 ```
 
 ## Screenshots 📸
-<!-- Add your screenshots here -->
-| Login Page | Signup Page | Dashboard |
-|------------|-------------|-----------|
-| ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) | ![Dashboard](screenshots/dashboard.png) |
+
+**Login Page** 
+
+<img src="screenshots/login.png" style="width: 100%; display: block; margin: 0 auto;">
+
+**Signup Page**  
+
+<img src="screenshots/signup.png" style="width: 100%; display: block; margin: 0 auto;">
+
+**Select Role**  
+
+<img src="screenshots/select-role.png" style="width: 100%; display: block; margin: 0 auto;">
+
+**Dashboard** 
+
+<img src="screenshots/dashboard.png" style="width: 100%; display: block; margin: 0 auto;">
 
 ## Database Schema 🗃️
 ```json
